@@ -64,7 +64,7 @@ if __name__ == "__main__":
     theekathir_parser = Theekathir_Parser(theekathir_url)
     
     # Destination to save the output of the parser
-    output_folder = os.getenv('PWD') + "/theekathir_data/"
+    output_folder = os.getenv('PWD') + "/theekathir_data_wiki_with_URL/"
     
     # Check if the folder already exists. If not create one.
     if not os.path.exists(output_folder):
